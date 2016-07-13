@@ -1,0 +1,86 @@
+Date and time: 2016-07-11 17:2135
+
+Data file path: output_input.txt
+
+Output file path: output
+
+Predict file path: No predictions run.
+
+Seed: 1468272095
+
+Number of sweeps: 10000
+Burn in sweeps: 1000
+Output filter: 1
+Proposal Type: gibbsForVActive, Acceptance Rate: 1
+Proposal Type: updateForPhiActive, Acceptance Rate: 1
+Proposal Type: gibbsForMuActive, Acceptance Rate: 1
+Proposal Type: gibbsForTauActive, Acceptance Rate: 1
+Proposal Type: metropolisHastingsForThetaActive, Acceptance Rate: 0.520512
+Proposal Type: metropolisHastingsForLabels123, Acceptance Rate: 0.0848182
+Proposal Type: gibbsForU, Acceptance Rate: 1
+Proposal Type: metropolisHastingsForAlpha, Acceptance Rate: 0.435091
+Proposal Type: gibbsForVInActive, Acceptance Rate: 1
+Proposal Type: gibbsForPhiInActive, Acceptance Rate: 1
+Proposal Type: gibbsForMuInActive, Acceptance Rate: 1
+Proposal Type: gibbsForTauInActive, Acceptance Rate: 1
+Proposal Type: gibbsForThetaInActive, Acceptance Rate: 1
+Proposal Type: gibbsForSigmaSqY, Acceptance Rate: 1
+Proposal Type: gibbsForZ, Acceptance Rate: 1
+Number of subjects: 124
+Number of prediction subjects: 0
+Prediction type: RaoBlackwell
+Sampler type: SliceDependent
+Number of initial clusters: 53 (Random, Unif[50,60])
+Covariates: 
+Number of discrete covariates: 1
+Number of continuous covariates: 6
+	brand_hybrid (categorical)
+	air.sig995_mean
+	omega.sig995_mean
+	pres.sfc_mean
+	rhum.sig995_mean
+	uwnd.sig995_mean
+	vwnd.sig995_mean
+No fixed effects
+Model for Y: Normal
+Extra Y variance: False
+Include response: True
+Update alpha: True
+Compute allocation entropy: False
+Model for X: Mixed
+Variable selection: None
+
+Hyperparameters:
+shapeAlpha: 2
+rateAlpha: 1
+aPhi[j]: 1 
+mu0: 
+    295.732
+-0.00342674
+    98666.8
+    73.8409
+   0.265313
+    1.46313
+Tau0:
+  0.0264711           0           0           0           0           0
+          0     504.894           0           0           0           0
+          0           0 5.54615e-09           0           0           0
+          0           0           0  0.00152581           0           0
+          0           0           0           0    0.136665           0
+          0           0           0           0           0    0.209005
+R0: 
+   0.0554829      3.12171   -0.0001294    0.0557291   -0.0753562     0.108275
+     3.12171      1904.97    -0.018124      7.68397     -18.7763      30.2836
+  -0.0001294    -0.018124  6.08124e-07 -0.000282486  0.000615012 -0.000802842
+   0.0557291      7.68397 -0.000282486     0.149647    -0.406819     0.433994
+  -0.0753562     -18.7763  0.000615012    -0.406819      1.89211     -1.02011
+    0.108275      30.2836 -0.000802842     0.433994     -1.02011      2.06349
+kappa0: 6
+nu0: 0.01
+muTheta: 0
+sigmaTheta: 2.5
+dofTheta: 7
+shapeSigmaSqY: 2.5
+scaleSigmaSqY: 2.5
+
+11000 sweeps done in 13 seconds
